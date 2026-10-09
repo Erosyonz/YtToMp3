@@ -1,0 +1,64 @@
+# ==========================================
+# Gradle & Build Artifacts
+# ==========================================
+.gradle/
+build/
+bin/
+out/
+/captures
+
+# Local configuration & environment variables (SDK paths, local props)
+local.properties
+.env
+.env.*
+
+# ==========================================
+# Android Specific Builds & Signing Secrets
+# ==========================================
+# Generated APKs, AABs, and ProGuard/R8 mappings
+*.apk
+*.ap_
+*.aab
+*.dex
+/build/outputs/
+/build/reports/
+/proguard/
+
+# Keystores and signing certificates
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Firebase / Google Services configuration with API keys (if applicable)
+# google-services.json
+
+# ==========================================
+# Android Studio & IntelliJ IDEA Files
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.navigation/
+
+# Shared run configurations (un-ignore if you intentionally commit these)
+#.idea/runConfigurations/
+
+# ==========================================
+# Kotlin Specific
+# ==========================================
+.kotlin/
+.kotlin-daemon/
+*.klib
+
+# ==========================================
+# OS & System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
