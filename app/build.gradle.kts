@@ -30,6 +30,13 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+    sourceSets {
+        getByName("main") {
+            res.directories.add("src/main/layouts/utility")
+            res.directories.add("src/main/icons")
+        }
+    }
 }
 
 dependencies {
